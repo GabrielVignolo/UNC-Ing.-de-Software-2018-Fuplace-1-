@@ -1,0 +1,20 @@
+  language:
+      - java
+  services:
+      - mysql
+  jdk:
+      - oraclejdk8
+      - openjdk7
+  before_install:
+      - mysql -u root < bbdd_Travis.sql
+  script:
+      - mvn clean test 
+  cache:
+      directories:
+          - $HOME/.m2
+  dist:
+      - trusty
+  sudo:
+      - false
+  notifications:
+      - email: false

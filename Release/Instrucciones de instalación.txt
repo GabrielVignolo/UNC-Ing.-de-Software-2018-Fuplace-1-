@@ -1,0 +1,4 @@
+1- Colocar el archivo ".apk" en un dispositivo móvil con sistema operativo Android.
+2- Si a la hora de abrir el archivo ".apk" da error, se debe activar la opción de "Permitir la instalación de aplicaciones de origen desconocido".
+3- instalar el archivo y ejecutarlo.
+4- jugar.
